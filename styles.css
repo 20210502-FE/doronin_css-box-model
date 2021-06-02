@@ -17,7 +17,7 @@ html {
 .header {
     color: #ffffff;
     font-family: Lucida Sans Unicode;
-    padding: 30px 287px;
+    padding: 30px 370px;
 }
 
 .content__list {
@@ -29,61 +29,70 @@ html {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #ffffff;
 }
 
-.content__list li {
+.content__list-item {
     display: inline-block;
     font-size: 25px;
-    width: 25%;
     padding: 30px 0;
+    border: 3px solid #ffffff;
+    border-collapse: collapse;
 }
 
-.content__list .content__list-item-lisobon {
-    background-color: #3399CC;
+.content__list-item_100 {
+    width: 100%;
+}
+
+.content__list-item_50 {
     width: 50%;
 }
 
-.content__list .content__list-item-paris {
+.content__list-item_25 {
+    width: 25%;
+}
+
+.content__list-item_bc-blue {
+    background-color: #3399CC;
+}
+
+.content__list-item_bc-aqua {
     background-color: #33CCCC;
 }
 
-.content__list .content__list-item-belgrade {
+.content__list-item_bc-violet {
     background-color: #996699;
 }
 
-.content__list .content__list-item-moscow {
+.content__list-item_bc-red {
     background-color: #C24747;
 }
 
-.content__list .content__list-item-tel-aviv {
+.content__list-item_bc-orrange {
     background-color: #E2674A;
 }
 
-.content__list .content__list-item-cair {
+.content__list-item_bc-yelow {
     background-color: #FFCC66;
 }
 
-.content__list .content__list-item-new-york {
+.content__list-item_bc-lettuce {
     background-color: #99CC99;
 }
 
-.content__list .content__list-item-new-dehli {
+.content__list-item_bc-sapphirine{
     background-color: #669999;
 }
 
-.content__list .content__list-item-san-francisco {
+.content__list-item_bc-pink {
     background-color: #CC6699;
-    width: 50%;
 }
 
-.content__list .content__list-item-tokyo {
+.content__list-item_bc-green {
     background-color: #339966;
 }
 
-.content__list .content__list-item-sydney {
+.content__list-item_bc-purple {
     background-color: #666699;
-    width: 100%;
 }
 
 span {
@@ -99,5 +108,5 @@ span {
     color: #ffffff;
     font-family: sans-serif;
     font-size: 20px;
-    padding: 30px 287px;
+    padding: 30px 370px;
 }
