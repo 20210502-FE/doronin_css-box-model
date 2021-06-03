@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #3399CC;
+    border: 15px solid #2B81AC;
+    min-height: 100%;
+    color: #ffffff;
+}
+
+html {
+    height: 100%;
+}
+
+.content__title {
+    font-family: Lucida Sans Unicode;
+    max-width: calc(100% - 40%);
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.content__list, .content__list-item {
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+.content__list {
+    list-style-type: none;
+    font-family: Lucida Grande;
+    text-align: center;
+    font-size: 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px 0 0 2px;
+}
+
+.content__list-item {
+    display: inline-block;
+    font-size: 25px;
+    padding: 30px 0;
+    border-width: 0 2px 2px 0;
+}
+
+.content__list-item_100 {
+    width: 100%;
+}
+
+.content__list-item_50 {
+    width: 50%;
+}
+
+.content__list-item_25 {
+    width: 25%;
+}
+
+.content__list-item_bc-blue {
+    background-color: #3399CC;
+}
+
+.content__list-item_bc-aqua {
+    background-color: #33CCCC;
+}
+
+.content__list-item_bc-violet {
+    background-color: #996699;
+}
+
+.content__list-item_bc-red {
+    background-color: #C24747;
+}
+
+.content__list-item_bc-orrange {
+    background-color: #E2674A;
+}
+
+.content__list-item_bc-yelow {
+    background-color: #FFCC66;
+}
+
+.content__list-item_bc-lettuce {
+    background-color: #99CC99;
+}
+
+.content__list-item_bc-sapphirine{
+    background-color: #669999;
+}
+
+.content__list-item_bc-pink {
+    background-color: #CC6699;
+}
+
+.content__list-item_bc-green {
+    background-color: #339966;
+}
+
+.content__list-item_bc-purple {
+    background-color: #666699;
+}
+
+span {
+    display: block;
+    padding: 10px 0 0 0;
+}
+
+.wi {
+    font-size: 35px;
+}
+
+.ctonent__footer {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    max-width: calc(100% - 40%);
+    margin: 0 auto;
+    padding: 20px 0;
+}
