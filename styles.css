@@ -8,35 +8,41 @@ html, body {
     background-color: #3399CC;
     border: 15px solid #2B81AC;
     min-height: 100%;
+    color: #ffffff;
 }
 
 html {
     height: 100%;
 }
 
-.header {
-    color: #ffffff;
+.content__title {
     font-family: Lucida Sans Unicode;
-    padding: 30px 370px;
+    max-width: calc(100% - 40%);
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.content__list, .content__list-item {
+    border-color: #ffffff;
+    border-style: solid;
 }
 
 .content__list {
     list-style-type: none;
     font-family: Lucida Grande;
     text-align: center;
-    color: #ffffff;
     font-size: 0;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    border-width: 2px 0 0 2px;
 }
 
 .content__list-item {
     display: inline-block;
     font-size: 25px;
     padding: 30px 0;
-    border: 3px solid #ffffff;
-    border-collapse: collapse;
+    border-width: 0 2px 2px 0;
 }
 
 .content__list-item_100 {
@@ -108,5 +114,7 @@ span {
     color: #ffffff;
     font-family: sans-serif;
     font-size: 20px;
-    padding: 30px 370px;
+    max-width: calc(100% - 40%);
+    margin: 0 auto;
+    padding: 20px 0;
 }
