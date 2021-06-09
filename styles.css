@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-html, body {
-    background-color: #3399CC;
-    border: 15px solid #2B81AC;
+ body {
     min-height: 100%;
     color: #ffffff;
+    background-color: #3399CC;
+    border: 35px solid #2B81AC;
 }
 
 html {
@@ -17,7 +17,7 @@ html {
 
 .content__title {
     font-family: Lucida Sans Unicode;
-    max-width: calc(100% - 40%);
+    max-width: calc(100% - 740px);
     margin: 0 auto;
     padding: 20px 0;
 }
@@ -102,7 +102,7 @@ html {
     background-color: #666699;
 }
 
-span {
+.content__list-item_temperature {
     display: block;
     padding: 10px 0 0 0;
 }
@@ -111,11 +111,11 @@ span {
     font-size: 35px;
 }
 
-.ctonent__footer {
+.content__footer {
     color: #ffffff;
     font-family: sans-serif;
     font-size: 20px;
-    max-width: calc(100% - 40%);
+    max-width: calc(100% - 740px);
     margin: 0 auto;
     padding: 20px 0;
 }
